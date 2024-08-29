@@ -17,3 +17,23 @@ body {
   border: 4px solid black;
   padding: 0.5rem;
 }
+
+#add-book-dialog::backdrop {
+  backdrop-filter: blur(5px);
+}
+
+form ul {
+  padding: 0;
+  display: grid;
+  gap: 0.25rem;
+}
+
+form li {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.form-buttons {
+  text-align: end;
+}
